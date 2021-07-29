@@ -39,7 +39,7 @@ require_once __DIR__."/bootstrap/autoload.php";
 
             <form method="post">
                 <div class="input-group mb-3">
-                    <input type="text" name="username" class="form-control" placeholder="نام کاربری" required>
+                    <input type="email" name="username" class="form-control" placeholder="پست الکترونیک" required>
                     <div class="input-group-append">
                         <span class="fa fa-user input-group-text"></span>
                     </div>
