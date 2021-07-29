@@ -1,8 +1,7 @@
 {
-    "name": "hadbo/hashboard",
+    "name": "hadboard/hashboard",
     "autoload": {
         "psr-4": {
-            "Hadbo\\Hashboard\\": "src/",
             "App\\": "app/"
         }
     },
