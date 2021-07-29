@@ -77,7 +77,7 @@
                         <div class="icon">
                             <i class="ion ion-pie-graph"></i>
                         </div>
-                        <a href="https://hadboard.ir" class="small-box-footer">اطلاعات بیشتر <i class="fa fa-arrow-circle-left"></i></a>
+                        <a href="https://hadboard.ir" target="_blank" class="small-box-footer">اطلاعات بیشتر <i class="fa fa-arrow-circle-left"></i></a>
                     </div>
                 </div>
                 <!-- ./col -->
