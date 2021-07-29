@@ -27,7 +27,7 @@
         <!-- Messages Dropdown Menu -->
         <li class="nav-item dropdown">
             <a class="nav-link" data-toggle="dropdown" href="#">
-                <i class="fa fa-comments-o"></i>
+                <i class="fa fa-comments"></i>
                 <span class="badge badge-danger navbar-badge">*</span>
             </a>
             <div class="dropdown-menu dropdown-menu-lg dropdown-menu-left">
@@ -37,7 +37,7 @@
                         <img src="../public/img/Me.png" alt="User Avatar" class="img-size-50 ml-3 img-circle">
                         <div class="media-body">
                             <h3 class="dropdown-item-title">
-                                هادبرد
+                                هادبورد
                                 <span class="float-left text-sm text-danger"><i class="fa fa-star"></i></span>
                             </h3>
                             <p class="text-sm">https://hadboard.ir</p>
@@ -53,7 +53,7 @@
         <!-- Notifications Dropdown Menu -->
         <li class="nav-item dropdown">
             <a class="nav-link" data-toggle="dropdown" href="#">
-                <i class="fa fa-bell-o"></i>
+                <i class="fa fa-bell"></i>
                 <span class="badge badge-warning navbar-badge">*</span>
             </a>
             <div class="dropdown-menu dropdown-menu-lg dropdown-menu-left">
