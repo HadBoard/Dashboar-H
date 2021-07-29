@@ -1,0 +1,16 @@
+{
+    "name": "hadbo/hashboard",
+    "autoload": {
+        "psr-4": {
+            "Hadbo\\Hashboard\\": "src/",
+            "App\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "HadBoard",
+            "email": "hadboard@hotmail.com"
+        }
+    ],
+    "require": {}
+}
