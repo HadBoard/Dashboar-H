@@ -54,5 +54,5 @@ to get the desired effect
     <!-- /.navbar -->
 
     <!-- Main Sidebar Container -->
-    <?php require_once "navbar.php" ?>
+    <?php require_once "sidebar.php" ?>
     <!-- .main sidebar container -->
