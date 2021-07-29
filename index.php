@@ -1,4 +1,6 @@
-<?php require_once "templates/header.php"; ?>
+<?php
+require_once __DIR__."/templates/header.php";
+?>
 
 <!-- Content Wrapper. Contains page content -->
 <div class="content-wrapper">
