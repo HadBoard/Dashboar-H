@@ -12,7 +12,8 @@
     <!-- SEARCH FORM -->
     <form class="form-inline ml-3" action="https://www.google.com/search" method="get">
         <div class="input-group input-group-sm">
-            <input class="form-control form-control-navbar" type="search" placeholder="جستجو در گوگل" aria-label="Search" name="q">
+            <input class="form-control form-control-navbar" type="search" placeholder="جستجو در گوگل"
+                   aria-label="Search" name="q">
             <div class="input-group-append">
                 <button class="btn btn-navbar" type="submit">
                     <i class="fa fa-search"></i>
@@ -60,17 +61,16 @@
                 <div class="dropdown-divider"></div>
                 <a href="#" class="dropdown-item">
                     <i class="fa fa-file ml-2"></i> 0 گزارش جدید
-                    <span class="float-left text-muted text-sm"الان</span>
+                    <span class="float-left text-muted text-sm" الان</span>
                 </a>
                 <div class="dropdown-divider"></div>
                 <a href="#" class="dropdown-item dropdown-footer">مشاهده همه نوتیفیکیشن</a>
             </div>
         </li>
-<!--         For change dashboard theme (coming soon ...) -->
-<!--        <li class="nav-item">-->
-<!--            <a class="nav-link" data-widget="control-sidebar" data-slide="true" href="#"><i-->
-<!--                    class="fa fa-th-large"></i></a>-->
-<!--        </li>-->
+
+        <li class="nav-item">
+            <a class="nav-link" href="?logout"><i class="fa fa-power-off"></i></a>
+        </li>
 
     </ul>
 </nav>
