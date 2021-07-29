@@ -1,6 +1,6 @@
 <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
-    <a href="https://hadboard.ir" class="brand-link">
+    <a href="https://hadboard.ir" target="_blank" class="brand-link">
         <img src="../public/img/HadBoard.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3"
              style="opacity: .8">
         <span class="brand-text font-weight-light">پنل مدیریت</span>
@@ -15,7 +15,7 @@
                     <img src="../public/img/Me.png" class="img-circle elevation-2" alt="User Image">
                 </div>
                 <div class="info">
-                    <a href="https://hadboard.ir" class="d-block">هادبورد</a>
+                    <a href="https://hadboard.ir" target="_blank" class="d-block">هادبورد</a>
                 </div>
             </div>
 
