@@ -33,14 +33,14 @@
                 <a href="#" class="dropdown-item">
                     <!-- Message Start -->
                     <div class="media">
-                        <img src="dist/img/user1-128x128.jpg" alt="User Avatar" class="img-size-50 ml-3 img-circle">
+                        <img src="../public/img/Me.png" alt="User Avatar" class="img-size-50 ml-3 img-circle">
                         <div class="media-body">
                             <h3 class="dropdown-item-title">
                                 هادبرد
                                 <span class="float-left text-sm text-danger"><i class="fa fa-star"></i></span>
                             </h3>
                             <p class="text-sm">https://hadboard.ir</p>
-                            <p class="text-sm text-muted"><i class="fa fa-clock-o mr-1"></i>چندی قبل</p>
+                            <p class="text-sm text-muted"><i class="fa fa-clock-o mr-1"></i> چندی قبل </p>
                         </div>
                     </div>
                     <!-- Message End -->
@@ -56,10 +56,10 @@
                 <span class="badge badge-warning navbar-badge">*</span>
             </a>
             <div class="dropdown-menu dropdown-menu-lg dropdown-menu-left">
-                <span class="dropdown-item dropdown-header">? نوتیفیکیشن</span>
+                <span class="dropdown-item dropdown-header">0 نوتیفیکیشن</span>
                 <div class="dropdown-divider"></div>
                 <a href="#" class="dropdown-item">
-                    <i class="fa fa-file ml-2"></i> ? گزارش جدید
+                    <i class="fa fa-file ml-2"></i> 0 گزارش جدید
                     <span class="float-left text-muted text-sm"الان</span>
                 </a>
                 <div class="dropdown-divider"></div>
