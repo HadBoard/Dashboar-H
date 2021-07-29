@@ -2,6 +2,10 @@
 <!-- https://hadboard.ir -->
 <!-- https://github.com/HadBoard/hashboard -->
 
+<?php
+require_once __DIR__."/../bootstrap/autoload.php";
+?>
+
 <!DOCTYPE html>
 <html lang="fa">
 <head>
@@ -50,9 +54,9 @@ to get the desired effect
 <div class="wrapper">
 
     <!-- Navbar -->
-    <?php require_once "navbar.php" ?>
+    <?php require_once __DIR__."/navbar.php" ?>
     <!-- /.navbar -->
 
     <!-- Main Sidebar Container -->
-    <?php require_once "sidebar.php" ?>
+    <?php require_once __DIR__."/sidebar.php" ?>
     <!-- .main sidebar container -->
