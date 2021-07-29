@@ -37,15 +37,15 @@ require_once __DIR__."/bootstrap/autoload.php";
         <div class="card-body login-card-body">
             <p class="login-box-msg">فرم زیر را تکمیل کرده و ورود را بزنید . </p>
 
-            <form action="" method="post">
+            <form method="post">
                 <div class="input-group mb-3">
-                    <input type="text" class="form-control" placeholder="نام کاربری">
+                    <input type="text" name="username" class="form-control" placeholder="نام کاربری">
                     <div class="input-group-append">
                         <span class="fa fa-user input-group-text"></span>
                     </div>
                 </div>
                 <div class="input-group mb-3">
-                    <input type="password" class="form-control" placeholder="رمز عبور">
+                    <input type="password" name="password" class="form-control" placeholder="رمز عبور">
                     <div class="input-group-append">
                         <span class="fa fa-lock input-group-text"></span>
                     </div>
@@ -54,13 +54,13 @@ require_once __DIR__."/bootstrap/autoload.php";
                     <div class="col-8">
                         <div class="checkbox icheck">
                             <label>
-                                <input type="checkbox">    مرا به خاطر بسپار !
+                                <input name="remember" type="checkbox">    مرا به خاطر بسپار !
                             </label>
                         </div>
                     </div>
                     <!-- /.col -->
                     <div class="col-4">
-                        <button type="submit" class="btn btn-danger btn-block btn-flat">ورود</button>
+                        <button type="submit" name="login" class="btn btn-danger btn-block btn-flat">ورود</button>
                     </div>
                     <!-- /.col -->
                 </div>
