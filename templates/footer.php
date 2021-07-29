@@ -1,5 +1,5 @@
-<footer class="main-footer">
-    <strong>CopyLeft &copy; 2021 <a href="https://hadboard.ir"> HadBoard :) </a> . </strong>
+<footer class="main-footer text-left">
+    (: CopyLeft &copy; 2021 <a href="https://hadboard.ir">  HadBoard </a>
 </footer>
 
 <!-- Control Sidebar -->
