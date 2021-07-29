@@ -41,7 +41,7 @@ $admin->login();
 
             <form method="post">
                 <div class="input-group mb-3">
-                    <input type="email" name="username" class="form-control" placeholder="پست الکترونیک" required>
+                    <input type="email" name="email" class="form-control" placeholder="پست الکترونیک" required>
                     <div class="input-group-append">
                         <span class="fa fa-user input-group-text"></span>
                     </div>
