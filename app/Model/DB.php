@@ -6,6 +6,8 @@ class DB
 {
 
     protected $pdo;
+    protected $table;
+    protected $fetcMode = \PDO::FETCH_OBJ;
 
     public function __construct()
     {
@@ -15,8 +17,8 @@ class DB
         $username = $config['db']['username'];
         $password = $config['db']['password'];
         $host = "localhost";
-        $charset = "UTF-8";
-        $dsn = "mysql:host={$host};dbname={$database};charset={$charset}";
+        $charset = "UTF8";
+        $dsn = "mysql:host={$host};dbname={$database};";
 
         try {
             $this->pdo = new \PDO($dsn, $username, $password);
@@ -24,4 +26,11 @@ class DB
             die("Error : {$ex->getMessage()} ");
         }
     }
+
+    public function select() {
+        $stmt = $this->pdo->prepare("SELECT * FROM `{$this->table}`");
+        $stmt->execute();
+        return $stmt->fetchAll($this->fetcMode);
+    }
+
 }
