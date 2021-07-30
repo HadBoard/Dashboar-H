@@ -2,18 +2,25 @@
 
 namespace App\Controller;
 
+use App\Helper\Validation;
+
 class AdminController {
 
     public function login() {
 
         if (!isset($_POST['login'])) return;
 
-        $rule = [
+        $rules = [
             'email' => 'require|email',
             'password' => 'require'
         ];
 
-        if (! $this->validation($_POST, $rule)) return;
+        $validation = new Validation();
+        $valid = $validation->make($_POST, $rules);
+
+        if (! $valid) {
+            var_dump($validation->getErrors());
+        }
 
     }
 
