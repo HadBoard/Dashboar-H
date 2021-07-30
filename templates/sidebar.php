@@ -25,13 +25,122 @@
                     <!-- Add icons to the links using the .nav-icon class
                          with font-awesome or any other icon font library -->
                     <li class="nav-item has-treeview menu-open">
-                        <a href="#" class="nav-link active">
+                        <a href="/" class="nav-link active">
                             <i class="nav-icon fa fa-dashboard"></i>
                             <p>
                                 داشبورد
                             </p>
                         </a>
                     </li>
+
+                    <li class="nav-header">مدیریت</li>
+
+                    <li class="nav-item has-treeview">
+                        <a href="/admin.php" class="nav-link">
+                            <i class="nav-icon fa fa-user-secret"></i>
+                            <p>
+                                مدیران
+                            </p>
+                        </a>
+                    </li>
+
+                    <li class="nav-item has-treeview">
+                        <a href="user.php" class="nav-link ">
+                            <i class="nav-icon fa fa-user"></i>
+                            <p>
+                                کاربران
+                            </p>
+                        </a>
+                    </li>
+
+                    <li class="nav-header">فروشگاه</li>
+
+                    <li class="nav-item has-treeview">
+                        <a href="category.php" class="nav-link ">
+                            <i class="nav-icon fa fa-list"></i>
+                            <p>
+                                دسته بندی
+                            </p>
+                        </a>
+                    </li>
+
+                    <li class="nav-item has-treeview">
+                        <a href="product.php" class="nav-link ">
+                            <i class="nav-icon fa fa-product-hunt"></i>
+                            <p>
+                                محصولات
+                            </p>
+                        </a>
+                    </li>
+
+                    <li class="nav-item has-treeview">
+                        <a href="order.php" class="nav-link ">
+                            <i class="nav-icon fa fa-cart-arrow-down"></i>
+                            <p>
+                                سفارشات
+                            </p>
+                        </a>
+                    </li>
+
+                    <li class="nav-item has-treeview">
+                        <a href="payment.php" class="nav-link ">
+                            <i class="nav-icon fa fa-dollar"></i>
+                            <p>
+                                تراکنشات
+                            </p>
+                        </a>
+                    </li>
+
+                    <li class="nav-header">پشتیبانی</li>
+
+                    <li class="nav-item has-treeview">
+                        <a href="ticket.php" class="nav-link ">
+                            <i class="nav-icon fa fa-ticket"></i>
+                            <p>
+                                تیکت
+                            </p>
+                        </a>
+                    </li>
+
+                    <li class="nav-item has-treeview">
+                        <a href="contact.php" class="nav-link ">
+                            <i class="nav-icon fa fa-contao"></i>
+                            <p>
+                                تماس
+                            </p>
+                        </a>
+                    </li>
+
+                    <li class="nav-item has-treeview">
+                        <a href="news.php" class="nav-link ">
+                            <i class="nav-icon fa fa-newspaper-o"></i>
+                            <p>
+                                خبرنامه
+                            </p>
+                        </a>
+                    </li>
+
+                    <li class="nav-header">سیستم</li>
+
+                    <li class="nav-item has-treeview">
+                        <a href="slide.php" class="nav-link ">
+                            <i class="nav-icon fa fa-sliders"></i>
+                            <p>
+                                اسلاید
+                            </p>
+                        </a>
+                    </li>
+
+                    <li class="nav-item has-treeview">
+                        <a href="system.php" class="nav-link ">
+                            <i class="nav-icon fa fa-server"></i>
+                            <p>
+                                تنظیمات
+                            </p>
+                        </a>
+                    </li>
+
+
                 </ul>
             </nav>
             <!-- /.sidebar-menu -->
