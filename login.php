@@ -34,6 +34,12 @@ $admin->login();
     <div class="login-logo">
         <a href="https://hadboard.ir" target="_blank"><b>هادبورد</b></a>
     </div>
+
+    <?php
+        if ($flash->hasMessages())
+            $flash->display();
+    ?>
+
     <!-- /.login-logo -->
     <div class="card">
         <div class="card-body login-card-body">
