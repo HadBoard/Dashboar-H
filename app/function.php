@@ -1,5 +1,5 @@
 <?php
 
-public function old($field){
+function old($field){
     return $_POST[$field] ?? null;
 }
