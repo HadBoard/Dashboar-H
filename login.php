@@ -47,13 +47,13 @@ $admin->login();
 
             <form method="post" novalidate>
                 <div class="input-group mb-3">
-                    <input type="email" name="email" class="form-control" placeholder="پست الکترونیک" required>
+                    <input type="email" name="email" class="form-control" placeholder="پست الکترونیک" required value="<?= old('email') ?>">
                     <div class="input-group-append">
                         <span class="fa fa-user input-group-text"></span>
                     </div>
                 </div>
                 <div class="input-group mb-3">
-                    <input type="password" name="password" class="form-control" placeholder="رمز عبور" required>
+                    <input type="password" name="password" class="form-control" placeholder="رمز عبور" value="<?= old('password') ?>" required>
                     <div class="input-group-append">
                         <span class="fa fa-lock input-group-text"></span>
                     </div>
