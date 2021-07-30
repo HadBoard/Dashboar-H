@@ -33,7 +33,10 @@
                         </a>
                     </li>
 
-                    <li class="nav-header">مدیریت</li>
+                    <li class="nav-header">
+                        <i class="nav-icon fa fa-circle-o text-danger"></i>
+                        مدیریت
+                    </li>
 
                     <li class="nav-item has-treeview">
                         <a href="/admin.php" class="nav-link">
@@ -53,7 +56,10 @@
                         </a>
                     </li>
 
-                    <li class="nav-header">فروشگاه</li>
+                    <li class="nav-header">
+                        <i class="nav-icon fa fa-circle-o text-success"></i>
+                        فروشگاه
+                    </li>
 
                     <li class="nav-item has-treeview">
                         <a href="category.php" class="nav-link ">
@@ -91,6 +97,11 @@
                         </a>
                     </li>
 
+                    <li class="nav-header">
+                        <i class="nav-icon fa fa-circle-o text-warning"></i>
+                        پشتیبانی
+                    </li>
+
                     <li class="nav-header">پشتیبانی</li>
 
                     <li class="nav-item has-treeview">
@@ -98,6 +109,7 @@
                             <i class="nav-icon fa fa-ticket"></i>
                             <p>
                                 تیکت
+                                <span class="badge badge-danger right">10</span>
                             </p>
                         </a>
                     </li>
@@ -107,6 +119,7 @@
                             <i class="nav-icon fa fa-contao"></i>
                             <p>
                                 تماس
+                                <span class="badge badge-warning right">3</span>
                             </p>
                         </a>
                     </li>
@@ -120,7 +133,10 @@
                         </a>
                     </li>
 
-                    <li class="nav-header">سیستم</li>
+                    <li class="nav-header">
+                        <i class="nav-icon fa fa-circle-o text-info"></i>
+                        سیستم
+                    </li>
 
                     <li class="nav-item has-treeview">
                         <a href="slide.php" class="nav-link ">
