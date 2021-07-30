@@ -14,7 +14,7 @@ class AdminController extends Controller {
             'password' => 'require'
         ];
 
-        $valid = $this->validation($_POST, $rules);
+        if (! $this->validation($_POST, $rules)) return;
 
 
     }
