@@ -36,7 +36,7 @@
 <script src="../public/plugins/slimScroll/jquery.slimscroll.min.js"></script>
 <!-- ChartJS 1.0.2 -->
 <script src="../public/plugins/chartjs-old/Chart.min.js"></script>
-<script src="../public/plugins/chart.js/Chart.min.js"></script>
+<!--<script src="../public/plugins/chart.js/Chart.min.js"></script>-->
 <!-- FastClick -->
 <script src="../public/plugins/fastclick/fastclick.js"></script>
 <!-- AdminLTE App -->
