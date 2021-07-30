@@ -45,7 +45,7 @@ $admin->login();
         <div class="card-body login-card-body">
             <p class="login-box-msg">فرم زیر را تکمیل کرده و ورود را بزنید . </p>
 
-            <form method="post">
+            <form method="post" novalidate>
                 <div class="input-group mb-3">
                     <input type="email" name="email" class="form-control" placeholder="پست الکترونیک" required>
                     <div class="input-group-append">
