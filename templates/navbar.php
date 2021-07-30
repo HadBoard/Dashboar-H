@@ -28,7 +28,7 @@
         <li class="nav-item dropdown">
             <a class="nav-link" data-toggle="dropdown" href="#">
                 <i class="fa fa-comments"></i>
-                <span class="badge badge-danger navbar-badge">*</span>
+                <span class="badge badge-danger navbar-badge">10</span>
             </a>
             <div class="dropdown-menu dropdown-menu-lg dropdown-menu-left">
                 <a href="#" class="dropdown-item">
@@ -54,7 +54,7 @@
         <li class="nav-item dropdown">
             <a class="nav-link" data-toggle="dropdown" href="#">
                 <i class="fa fa-bell"></i>
-                <span class="badge badge-warning navbar-badge">*</span>
+                <span class="badge badge-warning navbar-badge">3</span>
             </a>
             <div class="dropdown-menu dropdown-menu-lg dropdown-menu-left">
                 <span class="dropdown-item dropdown-header">0 نوتیفیکیشن</span>
