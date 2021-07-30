@@ -11,5 +11,7 @@
             "email": "hadboard@hotmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "plasticbrain/php-flash-messages": "^1.0"
+    }
 }
