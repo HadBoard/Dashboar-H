@@ -3,6 +3,7 @@
 namespace App\Controller;
 
 use App\Helper\Validation;
+use Plasticbrain\FlashMessages\FlashMessages;
 
 class Controller
 {
@@ -11,7 +12,7 @@ class Controller
 
     public function __construct()
     {
-        $this->flash = "";
+        $this->flash = new FlashMessages();
     }
 
     public function validation($data, $rules){
@@ -22,8 +23,10 @@ class Controller
 
         if (! $valid) {
 
-            
-            var_dump($validation->getErrors());
+            foreach ($validation->getErrors() as $error)
+                $this->flash->error($error[0]);
+
+            return false;
         }
 
         return true;
