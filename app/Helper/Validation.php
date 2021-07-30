@@ -32,6 +32,7 @@ class Validation
                 if(method_exists($this,$MethodName)) {
                     if($this->{$MethodName}($item,$value,$parametr) == false) {
                         $valid = false;
+                        break;
                     }
                 }
 
