@@ -2,9 +2,8 @@
 
 namespace App\Controller;
 
-use App\Helper\Validation;
 
-class AdminController {
+class AdminController extends Controller {
 
     public function login() {
 
@@ -15,12 +14,8 @@ class AdminController {
             'password' => 'require'
         ];
 
-        $validation = new Validation();
-        $valid = $validation->make($_POST, $rules);
+        $valid = $this->validation($_POST, $rules);
 
-        if (! $valid) {
-            var_dump($validation->getErrors());
-        }
 
     }
 
